@@ -1,0 +1,261 @@
+*{margin: 0;
+    font-family: work sans;
+}
+/*header part*/
+.head{
+    background-image: url(./images/banner3.png);
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 1515px;
+    
+}
+.heading{
+    margin-right: 230px;
+    margin-left: 840px;
+}
+.heading div{
+padding-top: 215px;
+}
+.headingtitle{
+    
+    text-align: right ;
+    font-weight: 700;
+font-size: 65px;
+color: white;
+}
+.headertext{
+    padding-top: 60px;
+    color: white;
+    text-align: right;
+    font-weight: 400;
+font-size: 16px;
+padding-bottom: 40px;
+}
+
+.contactbtn{
+    margin-left: 290px;
+    width: 150px;
+    height: 60px;
+    font-weight: 400;
+font-size: 20px;
+border-radius: 5px;
+border: 0;
+}
+
+
+/*section part of the page */
+section{
+    margin-left: 230px;
+    margin-right: 230px;
+
+}
+.sectionprofile{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-bottom: 140px;
+}
+.sectiondescription{ 
+    margin-right: 80px;
+
+}
+.mistaketitle{
+   
+    font-size: 40px;
+    font-weight: 700;
+   
+}
+.mistake{
+    color: rgb(83, 83, 83) ;
+    font-weight: 400;
+    font-size: 16px;
+}
+.myplan{
+    text-align: center;
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+}
+.plannings{
+    
+    display: flex;
+  margin-bottom: 130px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+/*New section */
+.new>p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+.extra{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+}
+.w3>p{
+padding-top: 30px;
+}
+.hero>p{
+    padding-top: 30px;
+}
+/*image and plannins settings*/
+.web img{
+padding-left: 100px;
+}
+
+.web h2{
+    font-weight: 700;
+font-size: 30px;
+    text-align: center; 
+}
+.web p{
+    text-align: center;
+    font-weight: 500;
+font-size: 25px;
+color: rgb(81, 81, 221);
+}
+.js img{
+    padding-left: 40px;
+    }
+    
+    .js h2{
+        font-weight: 700;
+    font-size: 30px;
+        text-align: center; 
+    }
+    .js p{
+        text-align: center;
+        font-weight: 500;
+    font-size: 25px;
+    color: rgb(81, 81, 221);
+    }
+
+.smoke img{
+        padding-left: 60px;
+        }
+        
+  .smoke h2{
+            font-weight: 700;
+        font-size: 30px;
+            text-align: center; 
+        }
+ .smoke p{
+ text-align: center;
+ font-weight: 500;
+font-size: 25px;
+ color: rgb(251, 8, 8);
+  }
+  .ecom img{
+    padding-left: 40px;
+    }
+    
+    .ecom h2{
+        font-weight: 700;
+    font-size: 30px;
+        text-align: center; 
+    }
+    .ecom p{
+        text-align: center;
+        font-weight: 500;
+    font-size: 25px;
+    color: rgb(81, 81, 221);
+    }
+/*gradient image with button*/
+.gradient{
+   background-image:  linear-gradient(to left, rgba(9, 31, 154, 0), rgba(111, 89, 168, 0.945)),
+    url(./images/watch.png);
+    width: 1050px;
+    height: 300px;
+margin-bottom: 130px;
+border-radius: 8px;
+
+}
+.textingradient{
+    padding-left: 50px;
+    padding-right: 400px;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+.gradienttext{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+
+}
+.textingradient button{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(60, 4, 245);
+    text-decoration: none;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*footer section of this web page*/
+.sitefooter{
+    
+    background-color: black;
+    
+}
+.foot{margin-left: 230px ;
+    margin-right: 230px;
+   padding-bottom: 130px;
+   padding-top: 130px;
+    display: flex;
+    gap:330px;
+    color: antiquewhite;
+}
+.footer head{
+    font-weight: 700;
+
+}
+.subscribebtn{
+font-weight: 500;
+font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    height: 60px;
+    border-radius: 8px;
+    width: 120px;
+    background-color: rgb(92, 92, 202);
+}
+.footerimage{
+display: flex;
+gap: 20px;
+}
+.future p{
+    font-weight: 400;
+font-size: 16px;
+color: rgb(221, 221, 240);
+}
+.future h2{
+    font-weight: 700;
+font-size: 45px;
+}
+#email{
+    
+    height: 40px;
+    width: 250px;
+    color: white;
+    border-radius: 8px;
+    background-color: black;
+    
+    
+}
+.leftfooterhead{
+    font-weight: 600;
+font-size: 25px;
+}
